@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload CT Scan</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    {% extends "navigation.html" %}
+    {% block content %}
+    <div class="container">
+    <h2>Upload CT Scan</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="ctscan" required><br>
+        <button type="submit">Upload & Detect</button>
+    </form>
+    <a href="/logout">Logout</a>
+    </div>
+    {% endblock %}
+</body>
+</html>
