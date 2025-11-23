@@ -1,4 +1,4 @@
-CranioScan: A CNN-Transformer Model for Intracranial Hemorrhage Detection
+##CranioScan: A CNN-Transformer Model for Intracranial Hemorrhage Detection
 
 CranioScan is a deep learning system designed to automatically detect six types of intracranial hemorrhage (ICH) from CT imaging.
 It uses a hybrid architecture combining ResNet50 (CNN feature extractor) with a Transformer encoder, enabling both local and global feature understanding.
