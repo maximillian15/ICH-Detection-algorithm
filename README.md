@@ -1,2 +1,14 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/blswXyO9)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=20098800&assignment_repo_type=AssignmentRepo)
+CranioScan: A CNN-Transformer Model for Intracranial Hemorrhage Detection
+
+CranioScan is a deep learning system designed to automatically detect six types of intracranial hemorrhage (ICH) from CT imaging.
+It uses a hybrid architecture combining ResNet50 (CNN feature extractor) with a Transformer encoder, enabling both local and global feature understanding.
+This project is built in TensorFlow and supports DICOM image loading
+
+1. Project Overview
+Bleeding inside the skull is a crucial and potentially lethal neurological event known as an intracranial hemorrhage (ICH).
+Intracranial hemorrhage requires immediate diagnosis, but interpretation of CT scans is time-critical and requires high expertise.
+
+CranioScan aims to:
+  1.Improve detection speed
+  2.Assist radiologists with AI-powered classification
+  3.Explore modern hybrid deep learning architectures for medical imaging
